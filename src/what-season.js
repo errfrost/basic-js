@@ -22,7 +22,7 @@ function getSeason(date) {
     month = date.getMonth();
   }
   catch(e) {
-    throw new Error('Invalid date!')
+    throw new Error('Invalid date!');
   }
   
   return seasons[month];
