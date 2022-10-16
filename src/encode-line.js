@@ -27,7 +27,6 @@ function encodeLine(str) {
 
   return res;
 }
-console.log(encodeLine('aabbbc'));
 module.exports = {
   encodeLine
 };

@@ -19,13 +19,11 @@ function getSumOfDigits(n) {
     let sum = 0;
     for(let i=0; i<number.length; i++)
       sum += Number(number[i]);
-    console.log(sum);
     number = sum.toString();
   }
 
   return Number(number);
 }
-console.log(getSumOfDigits(91));
 module.exports = {
   getSumOfDigits
 };
